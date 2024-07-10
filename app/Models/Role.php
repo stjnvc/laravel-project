@@ -10,7 +10,6 @@ class Role extends Model
     use HasFactory;
 
     const ADMIN = 'admin';
-    const WEBCAM_MODEL = 'model';
     const USER = 'user';
 
     protected $fillable = [
